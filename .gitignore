@@ -1,0 +1,31 @@
+# Node.js dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python virtual environments, caches, and build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# AWS CDK synthesis output
+cdk.out/
+
+# Local environment files (templates remain version controlled)
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system artifacts
+.DS_Store
+.kiro/
+.vscode/
+.idea/
+*.swp
