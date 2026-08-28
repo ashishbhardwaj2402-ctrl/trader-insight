@@ -1,0 +1,9 @@
+{
+  "name": "trader-insight-backend-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pinned local tooling for the Trader Insight Python backend",
+  "devDependencies": {
+    "aws-cdk": "2.177.0"
+  }
+}
