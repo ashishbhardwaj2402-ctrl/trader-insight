@@ -1,0 +1,46 @@
+{
+  "schema_version": "market-data/v1",
+  "underlying_snapshots": [
+    {
+      "schema_version": "market-data/v1",
+      "ticker": "SPY",
+      "price": 529.74,
+      "trend": "UPTREND",
+      "momentum": "STRONG",
+      "expected_move": 7.21,
+      "expected_move_pct": 1.36,
+      "iv_30d": 17.8,
+      "iv_rank": 68,
+      "iv_percentile": 72,
+      "put_call_ratio": 0.78,
+      "max_pain": 528.0,
+      "updated_at": "2025-05-22T14:30:00Z"
+    }
+  ],
+  "option_chain_records": [
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 520.0, "option_type": "CALL", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 11.4, "ask": 11.55, "delta": 0.77, "gamma": 0.031, "theta": -0.14, "vega": 0.19, "rho": 0.04, "open_interest": 12340, "volume": 4012, "updated_at": "2025-05-22T14:30:00Z"
+    },
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 525.0, "option_type": "CALL", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 7.05, "ask": 7.2, "delta": 0.65, "gamma": 0.044, "theta": -0.17, "vega": 0.25, "rho": 0.03, "open_interest": 14780, "volume": 6521, "updated_at": "2025-05-22T14:30:00Z"
+    },
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 530.0, "option_type": "CALL", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 3.25, "ask": 3.35, "delta": 0.52, "gamma": 0.057, "theta": -0.18, "vega": 0.29, "rho": 0.02, "open_interest": 15420, "volume": 8930, "updated_at": "2025-05-22T14:30:00Z"
+    },
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 535.0, "option_type": "CALL", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 1.26, "ask": 1.34, "delta": 0.35, "gamma": 0.048, "theta": -0.15, "vega": 0.26, "rho": 0.01, "open_interest": 10960, "volume": 5102, "updated_at": "2025-05-22T14:30:00Z"
+    },
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 520.0, "option_type": "PUT", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 1.49, "ask": 1.58, "delta": -0.22, "gamma": 0.031, "theta": -0.09, "vega": 0.18, "rho": -0.01, "open_interest": 9270, "volume": 2988, "updated_at": "2025-05-22T14:30:00Z"
+    },
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 525.0, "option_type": "PUT", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 2.73, "ask": 2.84, "delta": -0.35, "gamma": 0.045, "theta": -0.13, "vega": 0.25, "rho": -0.02, "open_interest": 11830, "volume": 4784, "updated_at": "2025-05-22T14:30:00Z"
+    },
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 530.0, "option_type": "PUT", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 4.85, "ask": 4.98, "delta": -0.48, "gamma": 0.057, "theta": -0.17, "vega": 0.29, "rho": -0.03, "open_interest": 16110, "volume": 8010, "updated_at": "2025-05-22T14:30:00Z"
+    },
+    {
+      "schema_version": "market-data/v1", "ticker": "SPY", "strike": 535.0, "option_type": "PUT", "expiry": "2025-05-30", "days_to_expiry": 8, "bid": 8.05, "ask": 8.2, "delta": -0.62, "gamma": 0.049, "theta": -0.18, "vega": 0.26, "rho": -0.03, "open_interest": 13190, "volume": 6234, "updated_at": "2025-05-22T14:30:00Z"
+    }
+  ]
+}
